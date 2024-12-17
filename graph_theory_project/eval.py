@@ -33,7 +33,7 @@ def evaluate(args):
   optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
   ratings_train_tensor = torch.tensor(ratings_train['rating'].values, dtype=torch.float)
 
-    
+     
 
   for epoch in range(args.epochs):
  
