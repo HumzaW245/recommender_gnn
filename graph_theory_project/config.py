@@ -11,4 +11,5 @@ def parse_args():
     parser.add_argument('--epochs', type=int, default=200, help='Number of training epochs')
     parser.add_argument('--hidden_channels', type=int, default=16, help='Number of hidden channels')
     parser.add_argument('--lr', type=float, default=0.01, help='Learning rate')
+    parser.add_argument('--accuracyTheshold', type=float, default=0.50, help='accuracy threshold')
     return parser.parse_args()
